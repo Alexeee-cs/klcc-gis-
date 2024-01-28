@@ -1,0 +1,4 @@
+string = ""
+for i in "0123456789":
+    string=string.replace(i,"")
+print(string[::-1])
