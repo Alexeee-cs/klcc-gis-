@@ -1,0 +1,12 @@
+list1 = []
+list2 = []
+merged = list1 + list2
+merged.sort()
+
+length = len(merged)
+if length%2 ==1:
+    print(float(merged[length//2]))
+else:
+    upper = merged[length//2-1]
+    lower = merged[length//2]
+    print((float(upper)+float(lower))/2.0)
